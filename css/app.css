@@ -1,0 +1,45 @@
+body, select {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
+	color: #52697E;
+}
+
+.wrapper{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-left: 50px;
+	background: rgb(247, 250, 226);
+}
+
+select{
+	line-height: 25px;
+	border-radius: 7px;
+	outline: none;
+}
+
+.actionImg{
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.actionImg:hover{
+	opacity: 1.0;
+}
+
+.box{
+	display: inline-block;
+	border-radius: 3px;
+	border:1px solid black;
+	width: 24px;
+	height:24px;
+	margin-right: 10px;
+}
+
+.toolPanel{
+	margin-bottom: 10px;
+}
